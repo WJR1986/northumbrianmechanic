@@ -46,3 +46,11 @@ body {
   background-color: #000; /* Change the color of the carousel control icons */
   border-radius: 25%;
 }
+
+.badge-link .badge {
+  margin-right: 0.5rem; /* Adjust the spacing as needed */
+}
+
+.badge-link .badge:last-child {
+  margin-right: 0; /* Remove margin from the last badge */
+}
