@@ -40,3 +40,9 @@ body {
 .modal-title {
   text-align: center !important; /* Center the title */
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #000; /* Change the color of the carousel control icons */
+  border-radius: 25%;
+}
