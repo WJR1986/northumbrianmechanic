@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       images: [
-        "img/portfolio/Swift1.jpg",
-        "img/portfolio/Swift2.jpg",
         "img/portfolio/Swift3.jpg",
+        "img/portfolio/Swift2.jpg",
+        "img/portfolio/Swift1.jpg",
         "img/portfolio/Swift4.jpg",
       ],
       title: "Suzuki Swift",
