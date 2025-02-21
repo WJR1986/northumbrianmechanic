@@ -129,6 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Update modal description
       const modalDescription = document.getElementById("modalDescription");
+      modalDescription.classList.add("text-center", "px-2");
       modalDescription.textContent = galleryItem.description;
 
       // Show the modal using Bootstrap's Modal API

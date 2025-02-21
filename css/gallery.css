@@ -36,3 +36,7 @@ body {
 .gallery-modal-description {
   color: #000; /* Ensure the text is dark and visible */
 }
+
+.modal-title {
+  text-align: center !important; /* Center the title */
+}
