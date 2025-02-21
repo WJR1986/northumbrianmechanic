@@ -22,14 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "This lovely caddy was suffering from the dreaded VW clutch drop in Widdrington. Master cylinder and slave cylinders both changed. Clutch feels as good as new. Another happy customer.",
     },
     {
-      images: [
-        "img/portfolio/Swift3.jpg",
-        "img/portfolio/Swift2.jpg",
-        "img/portfolio/Swift1.jpg",
-        "img/portfolio/Swift4.jpg",
-      ],
-      title: "Suzuki Swift",
-      description: "Service on a Suzuki swift in Wooler (February 2025).",
+      images: ["img/portfolio/pug1.jpg", "img/portfolio/pug2.jpg"],
+      title: "Peugeot",
+      description:
+        "Bottom ball joint and track rod end on a Peugeot today. Even done it on my birthday 😅",
     },
     {
       images: [
@@ -41,10 +37,14 @@ document.addEventListener("DOMContentLoaded", function () {
         "Droplink and driveshaft on this lovely range rover vogue today (February 2025) for a customer in Alnwick. Will be back for some more work on this and also on the defender soon.",
     },
     {
-      images: ["img/portfolio/pug1.jpg", "img/portfolio/pug2.jpg"],
-      title: "Peugeot",
-      description:
-        "Bottom ball joint and track rod end on a Peugeot today. Even done it on my birthday 😅",
+      images: [
+        "img/portfolio/Swift3.jpg",
+        "img/portfolio/Swift2.jpg",
+        "img/portfolio/Swift1.jpg",
+        "img/portfolio/Swift4.jpg",
+      ],
+      title: "Suzuki Swift",
+      description: "Service on a Suzuki swift in Wooler (February 2025).",
     },
     {
       images: [
