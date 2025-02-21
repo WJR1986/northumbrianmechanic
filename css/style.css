@@ -47,12 +47,35 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .hero-img {
-  max-width: 50%;
-  height: 100%;
+  max-width: 75%;
+  height: auto;
   filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.9));
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh; /* Adjust the height for mobile viewports */
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-caption {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* About section */
@@ -67,16 +90,21 @@ body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .about-section .hero-image {
-    max-width: 90%;
-    height: 100%;
+  .about-section {
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem !important;
   }
 
-  .hero-img {
-    max-width: 100%;
-    height: 100%;
-    padding-top: 1.5rem;
+  .about-btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-img-responsive {
+    display: none;
   }
 }
 
@@ -109,12 +137,12 @@ body {
 
 /* Back to Top */
 .back-to-top {
-  color: #007bff;
+  color: darkslategray;
   font-size: 1.5rem;
   display: inline-block;
   text-decoration: none;
 }
 
 .back-to-top:hover {
-  color: #88cff1;
+  color: black;
 }

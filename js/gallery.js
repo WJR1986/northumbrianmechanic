@@ -41,24 +41,21 @@ document.addEventListener("DOMContentLoaded", function () {
         "Droplink and driveshaft on this lovely range rover vogue today (February 2025) for a customer in Alnwick. Will be back for some more work on this and also on the defender soon.",
     },
     {
-      images: [
-        "img/portfolio/suzuki1.jpg",
-        "img/portfolio/suzuki2.jpg",
-        "img/portfolio/suzuki3.jpg",
-      ],
-      title: "Suzuki Swift",
+      images: ["img/portfolio/pug1.jpg", "img/portfolio/pug2.jpg"],
+      title: "Peugeot",
       description:
-        "Bottom ball joint and track rod end on a Peugeot today. Even done it on my birthday 😅 few call-outs also for diagnosis, mini which seems to have no compression and a god sized pothole has wrecked the suspension components on a vw transporter. I’ll get to that one later next week. Enjoy your weekend, space available next week for any of your needs.",
+        "Bottom ball joint and track rod end on a Peugeot today. Even done it on my birthday 😅",
     },
     {
       images: [
-        "img/portfolio/suzuki1.jpg",
-        "img/portfolio/suzuki2.jpg",
-        "img/portfolio/suzuki3.jpg",
+        "img/portfolio/nissan1.jpg",
+        "img/portfolio/nissan2.jpg",
+        "img/portfolio/nissan3.jpg",
+        "img/portfolio/nissan4.jpg",
       ],
-      title: "Suzuki Swift",
+      title: "Nissan Qashqai",
       description:
-        "Suzuki Swift we had back in for front discs and pads. Absolutely nothing left on them.",
+        "Had this lovely qashqai back in today after noticing the rear brakes were way past their best after giving it a quick valet last week.",
     },
     // Add more items as needed
   ];
@@ -90,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
     cardBody.classList.add("card-body");
     cardBody.innerHTML = `
         <p class="card-text">${item.title}</p>
-        <button class="btn btn-primary view-button" data-gallery-index="${galleryIndex}">
+        <button class="btn btn-dark view-button" data-gallery-index="${galleryIndex}">
           Enlarge
         </button>
       `;
