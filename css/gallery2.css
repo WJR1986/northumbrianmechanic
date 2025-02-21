@@ -1,0 +1,24 @@
+/* CSS for the fixed navbar */
+
+/* CSS for the hero section */
+.hero {
+  margin-top: 60px; /* Same value as the navbar's height */
+  /* Other styling properties */
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Default padding for desktop */
+body {
+  padding-top: 70px; /* Adjust this value based on your navbar's height */
+}
+
+/* Increase padding for mobile if necessary */
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 90px; /* Adjust if your mobile navbar is taller */
+  }
+}

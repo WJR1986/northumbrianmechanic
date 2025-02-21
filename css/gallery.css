@@ -1,0 +1,38 @@
+/* Card styling */
+.gallery-card {
+  width: 100%;
+  height: 270px; /* Slightly bigger than the image height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card image */
+.gallery-card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Ensure the image is fully contained */
+}
+
+/* Carousel image */
+.gallery-carousel-img {
+  height: 500px;
+  object-fit: contain; /* Ensure the image is fully contained */
+}
+
+/* Default padding for desktop */
+body {
+  padding-top: 70px; /* Adjust this value based on your navbar's height */
+}
+
+/* Increase padding for mobile if necessary */
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 40px; /* Adjust if your mobile navbar is taller */
+  }
+}
+
+/* Modal description styling */
+.gallery-modal-description {
+  color: #000; /* Ensure the text is dark and visible */
+}

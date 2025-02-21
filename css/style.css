@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+/* Divider */
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background: linear-gradient(to bottom, white, lightgray);
+  border: solid lightgray;
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar */
+.navbar-toggler i {
+  color: lightgray;
+  font-size: 1.5rem;
+}
+
+/* Hero styles */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-img {
+  max-width: 50%;
+  height: 100%;
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.9));
+}
+
+/* About section */
+.about-section {
+  background-color: #e6f6ff;
+}
+
+.card-img {
+  height: 75%;
+  border-radius: 0px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-section .hero-image {
+    max-width: 90%;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+}
+
+/* Contact Form */
+@media (max-width: 768px) {
+  .form-mob-margin {
+    margin-top: 10px;
+  }
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: left;
+}
+
+/* Social Buttons */
+.social-button {
+  color: #495057;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-button:hover {
+  color: #007bff;
+}
+
+/* Back to Top */
+.back-to-top {
+  color: #007bff;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: #88cff1;
+}

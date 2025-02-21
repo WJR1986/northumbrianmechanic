@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Will">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>The Northumbrian Mechanic LTD</title>
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="The Northumbrian Mechanic LTD">
+    <meta property="og:description"
+        content="The Northumbrian Mechanic LTD. Based in Berwick-upon-Tweed, Northumberland.">
+    <meta property="og:image" content="https://elenamaya.com/img/main/elenacloseupwhite.png">
+    <meta property="og:url" content="http://elenamaya.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Northumbrian Mechanic LTD">
+    <meta name="twitter:description" content="Based in Berwick-upon-Tweed, Northumberland.">
+    <meta name="twitter:image" content="https://elenamaya.com/img/main/elenacloseupwhite.png">
+    <meta name="twitter:url" content="http://elenamaya.com">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/gallery2.css?v=1.0">
+
+    <!-- Google reCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Love+Ya+Like+A+Sister&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <span class="love-ya-like-a-sister-regular">The Northumbrian Mechanic</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="index.html#my-work" class="nav-link">My Work</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link active">Gallery</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Enquiries</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center container album-section">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Gallery</h1>
+                <p class="lead text-body-secondary">
+                    Something short and leading about the collection below—its contents, the creator, etc.
+                    Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
+                </p>
+                <p>
+                    <a href="#" class="btn btn-primary btn-primary-custom my-2">Main call to action</a>
+                    <a href="#" class="btn btn-outline-secondary btn-secondary-custom my-2">Secondary action</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h1 class="fw-light">Our Work</h1>
+                    <p class="lead text-body-secondary">
+                        Browse our recent projects – each item can have up to 3 images.
+                    </p>
+                </div>
+            </div>
+            <div id="galleryContainer" class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- Gallery items will be injected here by the JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container px-4">
+            <h2 class="pb-2 border-bottom text-left love-ya-like-a-sister-regular" data-aos="fade-down"
+                data-aos-duration="1000">
+                Enquiries
+            </h2>
+            <div class="row pt-4">
+                <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+                    <form id="contact-form" method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your name" name="name"
+                                    required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label form-mob-margin">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Your number" name="phone"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com"
+                                    name="email" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Your message"
+                                    name="message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row mb-3 align-items-center">
+                            <div class="col-md-12 mb-3">
+                                <div class="g-recaptcha" data-sitekey="6LeDIh8qAAAAAHMSvGhJWyMf60ApqBsUvO9HxZAR"></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-flex justify-content-left">
+                                    <button type="submit"
+                                        class="btn btn-primary btn-primary-custom fw-medium">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal with Carousel -->
+    <div class="modal fade" id="exampleModalDefault" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Carousel items will be injected here by the JS -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-body-secondary pt-5 custom-footer">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+            </p>
+            <p>&copy; The Northumbrian Mechanic LTD | 2025</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Gallery JS -->
+    <script src="js/gallery2.js"></script>
+</body>
+
+</html>

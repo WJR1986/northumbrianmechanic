@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Will">
+  <meta name="generator" content="Hugo 0.122.0">
+  <title>The Northumbrian Mechanic LTD</title>
+
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="The Northumbrian Mechanic LTD">
+  <meta property="og:description" content="The Northumbrian Mechanic LTD. Based in Berwick-upon-Tweed, Northumberland.">
+  <meta property="og:image" content="https://elenamaya.com/img/main/2025.png">
+  <meta property="og:url" content="http://elenamaya.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Northumbrian Mechanic LTD">
+  <meta name="twitter:description" content="Based in Berwick-upon-Tweed, Northumberland.">
+  <meta name="twitter:image" content="https://elenamaya.com/img/main/2025.png">
+  <meta name="twitter:url" content="http://elenamaya.com">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+
+  <!-- Google reCaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Love+Ya+Like+A+Sister&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/17e7e77638.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- SVG Icons -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="bootstrap" viewBox="0 0 118 94">
+      <title>Bootstrap</title>
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z">
+      </path>
+    </symbol>
+    <symbol id="check2" viewBox="0 0 16 16">
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+    </symbol>
+    <symbol id="calendar3" viewBox="0 0 16 16">
+      <path
+        d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+      <path
+        d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+    </symbol>
+
+    <symbol id="geo-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 16a.5.5 0 0 1-.496-.438l-1.35-9.49a3.5 3.5 0 1 1 3.692 0l-1.35 9.49A.5.5 0 0 1 8 16z" />
+    </symbol>
+  </svg>
+
+  <main>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <span class="love-ya-like-a-sister-regular">The Northumbrian Mechanic</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="/gallery.html" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------->
+    <!-- Hero Section -->
+    <!------------------->
+    <section class="hero position-relative text-center text-white">
+      <img src="img/main/berwick.jpg" alt="Background Image" class="img-fluid w-100 h-100 object-fit-cover">
+      <div class="hero-caption position-absolute top-50 start-50 translate-middle">
+        <img class="hero-img mx-auto d-block" src="img/main/2025.png" alt="">
+        <a href="#about" class="btn btn-dark fw-bold mt-3">About Us</a>
+      </div>
+    </section>
+
+    <!-- Snazzy Divider -->
+    <div class="b-example-divider"></div>
+
+    <!------------------->
+    <!-- About Section -->
+    <!------------------->
+
+    <div class="about-section py-5 bg-light" id="about">
+      <div class="container px-4">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="border-bottom text-center text-md-start">About</h1>
+            <p class="text-center text-md-start">The Northumbrian Mechanic is your local, trusted electrician serving
+              Berwick-upon-Tweed, the Scottish borders, and the surrounding areas of Northumberland. With years of
+              experience in the industry, we offer a wide range of mechanical services, including servicing, repairs,
+              brakes, welding, exhausts, MOT preparation/failure correction, and more.</p>
+            <p class="text-center text-md-start">We pride ourselves on providing high-quality, reliable work at
+              competitive prices. Our commitment to customer satisfaction means we always go the extra mile to ensure
+              you're happy with the results. No matter what your car needs, from a simple oil change to a complete
+              engine rebuild, you can count on us for expert workmanship and exceptional service.</p>
+            <a href="#" class="btn btn-dark text-center text-md-start fw-medium">Learn More</a>
+          </div>
+          <div class="col-md-6">
+            <img src="img/main/about-image.png" class="img-fluid rounded" alt="Hero Image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------->
+    <!-- Services Section -->
+    <!---------------------->
+
+    <div class="container px-4 py-4" id="services">
+      <h1 class="border-bottom text-center text-md-start">Services</h1>
+      <div class="row row-cols-1 row-cols-lg-3 g-4 py-3">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="img/main/Card1.png" class="card-img-top" alt="Residential">
+            <div class="card-body">
+              <h5 class="card-title">Residential</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-dark" data-image-src="img/main/castle.jpg"
+                data-title="Residential">More Info</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="img/main/Card2.png" class="card-img-top" alt="Commercial">
+            <div class="card-body">
+              <h5 class="card-title">Commercial</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-dark" data-image-src="img/main/castle.jpg"
+                data-title="Commercial">More Info</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="img/main/Card3.png" class="card-img-top" alt="Industrial">
+            <div class="card-body">
+              <h5 class="card-title">Industrial</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-dark" data-image-src="img/main/castle.jpg"
+                data-title="Industrial">More Info</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------->
+    <!-- Contact Section -->
+    <!--------------------->
+    <section id="contact" class="py-5">
+      <div class="container px-4">
+        <h2 class="pb-2 border-bottom text-left barlow-condensed-regular" data-aos="fade-down" data-aos-duration="1000">
+          Enquiries
+        </h2>
+        <div class="row pt-4">
+          <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+            <form id="contact-form" method="post">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your name" name="name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Your number" name="phone" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-12">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email"
+                    required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Your message" name="message"
+                    required></textarea>
+                </div>
+              </div>
+              <div class="row mb-3 align-items-center">
+                <div class="col-md-12 mb-3">
+                  <div class="g-recaptcha" data-sitekey="6LeDIh8qAAAAAHMSvGhJWyMf60ApqBsUvO9HxZAR"></div>
+                </div>
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-left">
+                    <button type="submit" class="btn btn-dark fw-medium">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Display Area-->
+  <div class="modal fade" id="exampleModalDefault" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Your Title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body mx-auto">
+          <img src="/img/bootstrap-docs.png" class="img-fluid round" id="modalImage" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-body-secondary pt-5 bg-light">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+      </p>
+      <p>&copy; The Northumbrian Mechanic LTD | <span id="currentYear"></span></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
