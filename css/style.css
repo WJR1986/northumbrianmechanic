@@ -110,6 +110,37 @@ body {
   .form-mob-margin {
     margin-top: 10px;
   }
+  .address-padding {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+/* Ensure the overlay covers the entire image */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: Add a semi-transparent background */
+}
+
+.contact-img-p {
+  margin-bottom: 1rem; /* Adjust as needed */
+  color: white; /* Ensure the text is visible */
 }
 
 /* Footer */
