@@ -37,6 +37,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css?v=1.0">
   <link rel="stylesheet" href="css/fonts.css?v=1.0">
+  <link rel="stylesheet" href="css/cookies.css?v=1.0">
 
   <!-- Google reCaptcha -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -289,6 +290,16 @@
     </section>
   </main>
 
+  <!-- Start Cookie Section -->
+  <div id="cookieConsent" class="text-center">
+    <p>
+      This website uses cookies to enhance user experience and for security purposes.
+      <a href="cookies.html">Cookies</a> | <a href="privacy.html">Privacy Policy</a>
+      <button class="btn btn-secondary" id="acceptCookies">Understood!</button>
+    </p>
+  </div>
+  <!-- End Cookie Section -->
+
   <!-------------------->
   <!-- Footer Section -->
   <!-------------------->
@@ -297,11 +308,17 @@
       <p class="float-end">
         <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
       </p>
-      <p class="pt-2">&copy; The Northumbrian Mechanic LTD | <span id="currentYear"></span></p>
+      <p class="pt-2">
+        &copy; The Northumbrian Mechanic LTD | <span id="currentYear"></span> |
+        <a href="privacy.html" class="text-decoration-none text-dark">Privacy Policy</a>
+      </p>
     </div>
   </footer>
-  <script src="js/main.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script> -->
+  <!-- <script src="js/main.js"></script> -->
   <!-- <script src="js/gallery.js"></script> -->
+  <script src="js/cookies.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script>
     document.getElementById('currentYear').textContent = new Date().getFullYear();
